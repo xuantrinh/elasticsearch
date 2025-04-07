@@ -7,7 +7,7 @@ searchable), but it is stored so that it can be returned when executing
 _fetch_ requests, like <<docs-get,get>> or <<search-search,search>>.
 
 If disk usage is important to you, then consider the following options:
-
+zdceasdsacsedc
 - Using <<synthetic-source,synthetic `_source`>>, which reconstructs source content at the time of retrieval instead of storing it on disk. This shrinks disk usage, at the cost of slower access to `_source` in <<docs-get,Get>> and <<search-search,Search>> queries.
 - <<disable-source-field,Disabling the `_source` field completely>>. This shrinks disk
 usage but disables features that rely on `_source`.
